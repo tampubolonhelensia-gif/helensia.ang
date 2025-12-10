@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CV – Mahasiswa Manajemen Informasi Kesehatan</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="wrap">
+      <article class="card">
+        <!-- Foto -->
+        <aside class="left">
+          <div class="avatar">
+            <img src="img/helensia.jpeg" alt="Foto Profil" />
+          </div>
+
+          <div class="identity">
+            <div class="name">helensia heny febrina br tampubolon</div>
+            <div class="role">Mahasiswa Manajemen Informasi Kesehatan</div>
+          </div>
+
+          <div class="btn-group">
+            <button class="btn primary" id="btn-download">Download CV</button>
+            <button class="btn" id="btn-portfolio">Portofolio</button>
+            <button class="btn ghost" id="btn-contact">Kontak</button>
+          </div>
+        </aside>
+
+        <!-- Isi CV -->
+        <section class="right">
+          <div class="headline">
+            <h1>Ringkasan Profesional</h1>
+            <div class="contact">medan · tampubolonhelensia@gmail.com · 081375842663</div>
+          </div>
+
+          <div class="section">
+            <h3>Profil Singkat</h3>
+            <p class="meta">
+             saya seorang mahasiswa manajemen informasi kesehatan yang berorientasi pada detail dengan minat kuat              
+            pada analisis data dalam rekam medis elektronik. memiliki pemahaman dalam alur pelayanan kesehatan, dan manajemen rekam medis Elektronik.  
+          </p>
+          </div>
+
+          <div class="section">
+            <h3>Keahlian Utama</h3>
+            <div class="skills">
+              <span class="skill">ICD-10 Coding</span>
+              <span class="skill">administrasi dan optimalisasi sistem RME</span>
+              <span class="skill">Manajemen Data Kesehatan</span>
+              <span class="skill">keamanan informasi dan kepatuhan regulasi</span>
+              <span class="skill">Microsoft Excel</span>
+              <span class="skill">Analisis Data dan laporan kesehatan</span>
+              <span class="skill">Pengarsipan & Filling</span>
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Pengalaman / Praktik</h3>
+            <div class="timeline">
+              <div class="item">
+                <div class="year">2025</div>
+                <div class="desc">
+                  <strong>Rekam Medis</strong> · Instalasi Rekam Medis Puskesmas Sering Medan Membantu pendaftaran pasien, assembling, analisis kuantitatif dan filling.
+                </div>
+              </div>
+              <div class="item">
+                <div class="year">2021</div>
+                <div class="desc">
+                  <strong>rekam medis</strong> · instlasi rekam medis di RSU Mitra Medika Amplas Medan membantu dalam assembling, filling, analisis kuantitatif dan koding ICD 10.
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Pendidikan</h3>
+            <div class="timeline">
+              <div class="item">
+                <div class="year">2025 – Sekarang</div>
+                <div class="desc"><strong>D4 / S1 Manajemen Informasi Kesehatan </strong></div>
+              </div>
+            </div>
+          </div>
+
+          <footer>Institut Kesehatan Deli Husada @2025</footer>
+        </section>
+      </article>
+    </main>
+
+    <script>
+      document.getElementById("btn-download").onclick = () => window.print();
+      document.getElementById("btn-portfolio").onclick = () => window.open("#", "_blank");
+      document.getElementById("btn-contact").onclick = () => (window.location.href = "mailto:email@example.com");
+    </script>
+  </body>
+</html>
